@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Poppins:wght@300;400;500;600;700&display=swap');
+
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+body{
+    font-family: "Inter", sans-serif;
+    font-size: 62.5%;
+    background-image: url("https://images.unsplash.com/photo-1477346611705-65d1883cee1e?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D");
+    object-fit: cover;
+}
+
+.parent-card{
+    width: 70rem;
+    max-width: 80rem;
+    margin: 0.5rem auto;
+    padding: 5px 5px;
+
+    background: rgba(255, 255, 255, 0.2);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(5px);
+    -webkit-backdrop-filter: blur(5px);
+    border: 1px solid rgba(255, 255, 255, 0.3);
+}
+
+.card{
+    width: 22rem;
+    margin: 5rem auto;
+    padding: 10px 25px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 3px 10px rgba(0, 0, 0,  0.2);
+}
+
+.box{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+}
+
+
+.image{
+    border-radius: 10px;
+    width: 20rem;
+    height: 20rem;
+}
+
+.heading{
+    font-size: 1.2rem;
+    text-align: center;
+}
+
+
+.description{
+    font-size: 1rem;
+    text-align: center;
+    color: #aaa;
+    margin-bottom: 30px;
+}
+
+
+@media only screen and (max-width: 768px) {
+    .parent-card {
+        width: 90%;
+    }
+}
